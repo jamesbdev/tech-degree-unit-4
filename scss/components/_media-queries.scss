@@ -1,8 +1,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
-
+@media (min-width: $bp-tablet) {
     .container {
       max-width: 1400px;
       display: block;
