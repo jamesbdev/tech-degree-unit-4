@@ -419,6 +419,10 @@ a {
 .form {
   flex-basis: 100%;
 }
+.form fieldset {
+  padding: 0;
+  border: none;
+}
 
 .input {
   display: block;
