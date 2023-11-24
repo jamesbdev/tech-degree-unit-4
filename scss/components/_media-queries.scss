@@ -5,14 +5,12 @@
     .container {
       max-width: 1400px;
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      @include center-div; 
     }
     
     .centered {
       display: block;
-      margin-left: auto;
-      margin-right: auto;
+      @include center-div;
     }
     
     .row {
@@ -20,10 +18,8 @@
     }
     
     [class^=col] {
-      display: flex;
-      justify-content: center;
       margin-top: 0;
-      align-items: center;
+      @include center-flex;
     }
     
     [class^=col] + [class^=col] {

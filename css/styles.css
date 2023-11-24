@@ -499,6 +499,10 @@ a {
   background-color: #927bc1;
 }
 
+.theme.col-2 {
+  background-color: #fd7856;
+}
+
 .theme.col-3 {
   background-color: #deb2ee;
 }
@@ -562,9 +566,9 @@ a {
     flex-direction: row;
   }
   [class^=col] {
+    margin-top: 0;
     display: flex;
     justify-content: center;
-    margin-top: 0;
     align-items: center;
   }
   [class^=col] + [class^=col] {

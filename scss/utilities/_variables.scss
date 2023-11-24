@@ -1,3 +1,4 @@
+//colors
 $color-text: #777;
 $color-primary: #58e1c1;
 $color-accent: #51ddfc;
@@ -8,15 +9,19 @@ $color-btn_info: #927bc1;
 $color-frame: #ccc;
 $color-white: #fff;
 
+//font-weight
+$font-light: 300;
+$font-bold: 700;
+
+//font-family
+$main-font: 'Lato', sans-serif;
+
+//breakpoints
 $bp-tablet: 768px;
 $bp-desktop: 990px;
 $bp-lg: 1200px;
 $bp-xlg: 1400px;
 
-$font-light: 300;
-$font-bold: 700;
 
-
-$main-font: 'Lato', sans-serif;
 
 
