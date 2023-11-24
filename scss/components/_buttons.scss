@@ -15,36 +15,27 @@
   
   .default {
     background-color: $color-primary;
-    &:hover {
-      background-color: lighten($color-primary, 15%);
-    }
+    @include btn-hover($color: $color-primary);
   }
   
   .error {
     background-color: $color-btn_err;
-    &:hover {
-      background-color: lighten($color-btn_err, 15%);
-    }
+    @include btn-hover($color: $color-btn_err);
   }
   
   .info {
     background-color: $color-btn_info;
-    &:hover {
-      background-color: lighten($color-btn_info, 15%);
-    }
+    @include btn-hover($color: $color-btn_info);
+
   }
   
   .success {
     background-color: $color-btn_success;
-    &:hover {
-      background-color: lighten($color-btn_success, 15%);
-    }
+    @include btn-hover($color: $color-btn_success);
   }
   
   .warning {
     background-color: $color-btn_warn;
-    &:hover {
-      background-color: lighten($color-btn_success, 15%);
-    }
+    @include btn-hover($color: $color-btn_warn);
   }
   

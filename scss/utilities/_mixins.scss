@@ -14,3 +14,10 @@
     flex-direction: column;
 }
 
+@mixin btn-hover($color) {
+    &:hover {
+      background-color: lighten($color, 15%);
+    }
+   
+}
+
