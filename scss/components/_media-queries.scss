@@ -3,7 +3,7 @@
 /* ============================================= */
 @media (min-width: $bp-tablet) {
     .container {
-      max-width: 1400px;
+      max-width: $max-width-lg;
       display: block;
       @include center-div; 
     }
