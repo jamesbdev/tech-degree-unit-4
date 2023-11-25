@@ -20,27 +20,27 @@
   }
   
   .theme.col-1 {
-    background-color: #927bc1;
+    background-color: $color-btn-info;
   }
   
   .theme.col-2 {
-    background-color: #fd7856;
+    background-color: $color-btn-warn;
   } 
   
   .theme.col-3 {
-    background-color: #deb2ee;
+    background-color: $color-light-purple;
   }
   
   .theme.col-4 {
-    background-color: #7ee6fd;
+    background-color: $color-sky-blue;
   }
   
   .theme.col-5 {
-    background-color: #88d9a0;
+    background-color: $color-light-green
   }
   
   .theme.col-6 {
-    background-color: #4da2bb;
+    background-color: $color-dark-blue;
   }
   
   .theme.col-7 {
@@ -60,11 +60,11 @@
   }
   
   .theme.col-11 {
-    background-color: #51ddfc;
+    background-color: $color-accent;
   }
   
   .theme.col-12 {
-    background-color: #80e8d1;
+    background-color: $color-turquoise;
   }
   
   .card {
